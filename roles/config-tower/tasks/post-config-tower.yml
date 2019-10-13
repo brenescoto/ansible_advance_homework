@@ -10,6 +10,9 @@
     tower_password: r3dh4t1!
     scm_type: git
     scm_url: https://github.com/brenescoto/ansible_advance_homework
+    scm_clean: yes
+    scm_delete_on_update: yes
+    scm_update_on_launch: yes
     
 
 - name: Machine Credentail to connect to workstation using openstack.pem
